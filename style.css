@@ -1,0 +1,146 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffe4e1; /* Light pink color */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #d4af37; /* Gold color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #333;
+}
+
+.search-cart i {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    color: #fff;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.search-cart i:hover {
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.hero .text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.hero p {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+.hero .buttons {
+    margin-top: 1rem;
+}
+
+.hero button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #d4af37; /* Gold color */
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #b89a30;
+}
+
+.hero .image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #ffe4e1; /* Light pink color */
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature i {
+    font-size: 2rem;
+    color: #d4af37; /* Gold color */
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.feature p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #d4af37; /* Gold color */
+    color: #fff;
+}
